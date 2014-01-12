@@ -1,0 +1,12 @@
+2,Only appears to sync in one direction Easy to configure, connected immediately, but: - Only appears to sync in one direction (server -> phone). What am I doing wrong? - Can't figure out how to edit the account settings after having created it.
+3,OK at what it does: one-way sync of phone, e-mail, and work address fields. ... OK at what it does: one-way sync of phone, e-mail, and work address fields. Annoying that acct. settings can't be edited. Some improvement would help.
+1,Makes phone unstable While it does what it says, it has two major problems for me: First, it's not possible to change the details of an account config
+4,Does what it says on the box. Doesn't allow multiple accounts on the same ... Does what it says on the box. Doesn't allow multiple accounts on the same server, though.
+0,Can't group contacts, does not find them via htc desire people app.
+2,Not worth paying for, use Contacts InLine Doesn't sync after the first time, and also can't change account info after setup...can only delete and re-add
+1,Author Gives No Support and App Does Not Work Have attempted to contact the developer on many occasions. No answer whatsoever. Upon upgrading to Android 2.2.2 on Droid X2 this app stopped working altogether. It seems to be a permissions problem with Activity Manager but Daniel doesn't seem to care. He took my money, though.
+5,Works great with our company's OpenLDAP based directory, including jpegphoto ... Works great with our company's OpenLDAP based directory, including jpegphoto attribute
+3,initial sync works but ... * initial sync ldap > phone works fine with OpenLDAP based directory set sldapd.conf: sizelimit -1 to avoid "size limit exceeded" * follow up syncs cause "android.process.acore stopped" error * account settings can't be edited * thus each time I want to sync I have to remove/insert the ldap account
+2,It attempts to sync but I get an error message of "size limit exceeded." ... It attempts to sync but I get an error message of "size limit exceeded." It needs edit settings and size limit increased.
+2,Errors every time. Emailed developer and did not get a response.
+1,Doesn't work for me. Error message don't help me. Refund didn't work. Aborts after ... Doesn't work for me. Error message don't help me. Refund didn't work. Aborts after a while saying "size exceeded".

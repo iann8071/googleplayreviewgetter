@@ -1,0 +1,9 @@
+5,Just what I needed.
+4,Secret key is not the seed. I have installed this application, and like the last few commenters was mildly confused why it wasn't working... and then I realised that it's like the M-OTP token generator on the Sourceforge page - enter your random 20 alphanumeric characters, then once you've created your record, push and hold on the name and select "View Secret" to get the 16 character hex string. I think this could probably be clearer. I'll contact the creator and ask that he make this easier to understand. It works for my server.
+1,20 chars are not working
+1,Insisted on 20 char secret but my MOTP server uses 16 or 32. Consequently ... Insisted on 20 char secret but my MOTP server uses 16 or 32. Consequently it didn't work at all for me.
+5,Excellent! Now I can use my N1 as a token to connect to my ... Excellent! Now I can use my N1 as a token to connect to my Draytek VPN.
+3,Lots of potential. 5 stars if can be made to work with Google authentication.
+5,I'd love to continue using your app though others allow copying of the password. ... I'd love to continue using your app though others allow copying of the password. Do you plan on adding this functionality?
+5,fantastic! any plans for freeauth support?
+5,working great in my milestone with nice ui, support multi profile is very good ... working great in my milestone with nice ui, support multi profile is very good idea, can use my phone as otp token now, thx
