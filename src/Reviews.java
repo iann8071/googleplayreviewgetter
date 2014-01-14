@@ -65,21 +65,17 @@ public class Reviews {
 				searchedApps.add(searchedApp.getName());
 			}
 		}
+
 		for (int j = 0; j < apps.size(); j++) {
 			String app = apps.get(j);
 			if (searchedApps.contains(app.replaceAll("\\.", "_") + ".csv")) {
 				continue;
 			}
-			count++;
-			if (count % 10 == 0) {
-				driver.close();
-				Thread.sleep(60000);
-				driver = new ChromeDriver();
-			}
+			boolean crached = false;
 			String appCategory = appCategories.get(j);
 			for (String hl : hls) {
 				driver.get(getURLWithParameters(app, hl));
-				Thread.sleep(5000);
+				Thread.sleep(1000);
 				for (int i = 1;; i++) {
 					try {
 						waitIfLoading();
@@ -118,6 +114,13 @@ public class Reviews {
 									.className("current-rating"));
 							String reviewBody = reviewBodyElement.getText();
 
+							if (reviewBody.isEmpty()) {
+								remove(app, appCategory);
+								restart();
+								crached = true;
+								j--;
+								break;
+							}
 							int rate = extractRate(rateElement
 									.getAttribute("style"));
 							System.out.println("Category:" + appCategory);
@@ -126,10 +129,32 @@ public class Reviews {
 							System.out.println(reviewBody);
 							writeResult(appCategory, app, rate, reviewBody);
 						}
+						
+						if(crached) {
+							break;
+						}
 					}
+					if(crached)
+						break;
 				}
+				if(crached)
+					break;
 			}
+			
 		}
+	}
+
+	private void restart() throws InterruptedException {
+		driver.close();
+		Thread.sleep(60000);
+		driver = new ChromeDriver();
+	}
+
+	private void remove(String app, String category) {
+		File file = new File(FOLDER_PATH + "\\" + category + "\\"
+				+ app.replaceAll("\\.", "_") + ".csv");
+		if (file.isFile())
+			file.delete();
 	}
 
 	private void waitIfLoading() {
