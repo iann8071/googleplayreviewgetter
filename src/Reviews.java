@@ -40,7 +40,9 @@ public class Reviews {
 	}
 	WebDriver driver;
 	private static final String FOLDER_PATH = "C:\\Users\\Kiichi\\googleplayreviewviewer\\results";
-	
+	private final ArrayList<String> searchedApps = new ArrayList<String>();
+	int count = 0;
+
 	public static void main(String[] args) throws InterruptedException {
 		Reviews r = new Reviews();
 	}
@@ -57,8 +59,23 @@ public class Reviews {
 		FdroidApps fa = new FdroidApps();
 		List<String> apps = fa.getApps();
 		List<String> appCategories = fa.getAppCategories();
+		for (String appCategory : appCategories) {
+			File searchedAppsArray = new File(FOLDER_PATH + "/" + appCategory);
+			for (File searchedApp : searchedAppsArray.listFiles()) {
+				searchedApps.add(searchedApp.getName());
+			}
+		}
 		for (int j = 0; j < apps.size(); j++) {
 			String app = apps.get(j);
+			if (searchedApps.contains(app.replaceAll("\\.", "_") + ".csv")) {
+				continue;
+			}
+			count++;
+			if (count % 10 == 0) {
+				driver.close();
+				Thread.sleep(60000);
+				driver = new ChromeDriver();
+			}
 			String appCategory = appCategories.get(j);
 			for (String hl : hls) {
 				driver.get(getURLWithParameters(app, hl));
@@ -83,7 +100,7 @@ public class Reviews {
 					List<WebElement> expandPages = driver
 							.findElements(By
 									.xpath("//*[@id=\"body-content\"]/div[2]/div[2]/div[1]/div[2]/div[1]/div/div"));
-					if (i >= expandPages.size()){
+					if (i >= expandPages.size()) {
 						break;
 					}
 					WebElement expandPage = expandPages.get(i);
@@ -100,7 +117,7 @@ public class Reviews {
 							rateElement = review.findElement(By
 									.className("current-rating"));
 							String reviewBody = reviewBodyElement.getText();
-						
+
 							int rate = extractRate(rateElement
 									.getAttribute("style"));
 							System.out.println("Category:" + appCategory);
@@ -122,8 +139,7 @@ public class Reviews {
 		int waitLevel = 0;
 		while (!loading.getAttribute("style").contains("none")) {
 			try {
-				int waitTime = (int) Math.pow(2, waitLevel);
-				Thread.sleep(5000 * waitTime);
+				Thread.sleep(5000 * waitLevel);
 				waitLevel++;
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
