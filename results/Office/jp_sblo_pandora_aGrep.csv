@@ -18,60 +18,22 @@
 5,Best search app EVER! Words cannot describe how much I love aGrep. I've been looking for an app like this for a long time. This one searches multiple text files and is FAST, complete, and thorough. If you have text files and you need to do keyword searching, you need this. Text editor apps all seem to struggle with searching; this app is built for it.
 5,Great Program Couldn't use Android seriously without it.
 5,Great for searching Using to find is a bit unintuitive. Other than that it works great.
-5,フォルダ内検索最高！ フォルダ内のたくさんのファイルの中から、特定の文字列を検索できる。動きも軽い！もっともっと使われたらいいのに。 テキストファイルをたくさん作っているものには、ありがたいアプリだ！
-4,後は複数検索 幾つかの全文検索が出来るアプリを試してみましたが、このアプリに勝る使い勝手のよいものはありませんでした。 ただ、複数の単語による検索が出来ないのはとても残念です。 何とかそれの実現をして欲しいです。
-5,これは強い。 幾つかのファイルマネジャーで付属の検索機能を試しましたが、ファイル名検索しかできないか、シフトJISのファイルが無視されるか、でした。 こちらのアプリでは、UTF-8とシフトJISのファイルを、共にちゃんと検索できました。無駄のない作りで、使いやすさも優良です。 今後、複数語検索へのアプグレを期待いたします！
-4,重宝してます 文系の研究者です。 文献の研究に大変重宝してます。 現状である程度満足ですが、強いて言えば改行をまたいだ文字列も検索にかかるようにしていただけたら文句なしですね。 ぜひご検討いただければと思います。
-4,見やすくてとてもいいんですが、検索結果の中からさらにgrepをパイプのように使えたらより一層うれしいです。
-5,すばらしい！ Windows環境で使っている、複数テキストファイルを一括して検索できるアプリがスマホに欲しかったんです。 願わくば、新字旧字も同一視してしまえるあいまい機能（できれば曖昧情報を自分で登録できる）があると、鬼に金棒です。 速度はこれで目一杯でしょうか。 ★もう一点、ファイルサイズが約５ＭＢより大きいと検索されないようです。制限がありますか？
-5,満足です。 すばらしいアプリをありがとうございます。　全角カナ半角カナなどを同じと見なしたり、表現の相違を補完したりする、『あいまい検索』や『ゆらぎ検索』っていうような機能が実装されるとさらに良くなると思いますので、勝手に今後にも期待します。^^
-4,To：Satokoさん 複数語検索でしたら正規表現を使われればよろしいかと。A|Bまたは[AB]等ありますので一度お試しになることをお勧めします。
-5,完璧 ARROWS X LTE 完璧です。大満足。
-5,非常に便利。重宝してます。
-5,最強のgrepです。
-5,とても便利！
-4,何気に便利。プリインストールされててもいいのに。
-5,完璧 必要な機能がトラブルなく使えて、しかも高速。自分としては現在最強のテキスト検索ツール。
-5,結構grep検索使う人間なんで非常に便利です。
-1,強制終了します。
-5,すごい！
-5,Nexus 7 ver 4.2でも動くようになった。 先日 Nexus7 のバージョンを 4.2 にしたところ動かなくなった。しかし、作者の素早い対応でまた使えるようになり　感謝！、感謝！
-5,Solid Great app!
-5,Works very well Love the copy-to-clipboard feature - so convenient! In case you're not aware of this feature, just tap on the line that you want to copy to trigger it. :)
-5,aGrep: aGreat app. aGrep is aGreat app.... it fills in one big lacking feature on my Droid phone -- multi-file search. This is pretty much what I've been looking for. Before aGrep, I had to search text files one-by-one. aGrep automatically searches a file list and shows all matches.
-5,Grep works, highlights hits in source Android 4.1 JB Galaxy Note 2 and agrep returns expected results from a txt file on either sdcard0 or extSdCard. Agrep finds hits AND if you press on a hit agrep will open the input file and position to the highlighted grep string.
-5,Excellent Really good !! A must if you have a lot of data on your mobile !
-5,Good But ...this year is 2012, not 2011...
-5,Excellent app for searching for text in files.
-5,Awesome It does exactly what I wanted it to do.... Search string/text/word written inside the text file and return the containing file. Superb..... Devs, u people ROCK! keep up the good work Cheers :-)
-5,1.5 MB text file with 2 occurrences grepped fast! I had a 1.5 MB network traffic trace that was choking my Android text editors when trying to do simple searches. downloaded this app and literally within seconds had grepped out the 2 lines of importance to me... even better and to my joyous surprise was that selecting either grepped item took me into the text file and allowed me to look in context with grep term highlighted. Simple, clean, fast and intuitive!
-5,Better than grep! This little search utility is a handy grep-like program for your phone. In some ways, the regex supported is more advanced than grep, for instance, I was able to do lookaheads - (?=EXP) that you can't do in grep, presumably because this uses java regular expressions instead of POSIX regular expressions. I give it 5 stars because it is really quite useful, but I do have one little suggestion: while I do like the mode of searching in specific folders and with specific file extensions, sometimes I want to search only a single file, even if there are other files with the same extension in that folder. So, being able to specify only certain files (instead of which folders/extensions) would be useful in addition to the search mode that already exists.
-5,So great An essential app if you use actual words.
-1,After finding, then what? It works to find a document (eg, a pdf), but it's useless, because then when I tap to open the item, it opens it as a huge text file full of gibberish, instead of letting the correct default program (eg, Adobe Reader) open it.
-5,So FIne I wrote a perl program like aGrep called igrep. I use igrep on Mac, PCs, and Linux, but have searched and searched for a handheld app with igrep functionality. THIS IS IT! I use aGrep (and igrep) as a personal information manager, and could not live without it. My thanks to the developer! Dropbox interface would be a nice enhancement. (For now, I use FolderSync Lite.)
-5,Maximum white background Can you allow changing the background color? It's uncomfortable after long on this OLED screen.
-2,Fatal flaw Could be very useful, but for me it has the fatal flaw that it seems to only look at the first 10k of a file.
-5,Great app Knowing some regex syntax really makes this app shine.
-4,Great! Needs to show path in search results.
-5,Best search app EVER! Words cannot describe how much I love aGrep. I've been looking for an app like this for a long time. This one searches multiple text files and is FAST, complete, and thorough. If you have text files and you need to do keyword searching, you need this. Text editor apps all seem to struggle with searching; this app is built for it.
-5,Great Program Couldn't use Android seriously without it.
-5,Great for searching Using to find is a bit unintuitive. Other than that it works great.
-5,
-5,
-5,
-5,
-4,
-5,
-1,
-5,
-3,
-4,
-5,
-5,
-5,
-5,
-4,
-5,
+5,Wow Simple elegant sweet. Really free
+5,Works well :)
+5,Perfect. Thank you very much! I use it to find lyrics from +2000 files. ... Perfect. Thank you very much! I use it to find lyrics from +2000 files. Timo, (HTC Desire HD v.2.3.3)
+5,Kalvin, look up what "grep" does in wikipedia then change your rating to 5 ... Kalvin, look up what "grep" does in wikipedia then change your rating to 5 stars.
+4,Excellent tool. One thing i miss: it does not introduce ... Excellent tool. One thing i miss: it does not introduce settings/search/searchable items.
+5,Certainly impressive considering android's lack of unix like utilities despite ... Certainly impressive considering android's lack of unix like utilities despite it being a unix like OS. More of the same please!
+1,Crap I don t know how this works. Too difficult and not user friendly. ... Crap I don t know how this works. Too difficult and not user friendly. Should be tested before being on the market
+5,Excellent.
+3,needs regex examples+ability to select a file.Still,it's the only android app ... needs regex examples+ability to select a file.Still,it's the only android app that can search thru a text file+present result in context. says a lot
+4,Excellent. Just what I was looking for. Be nice to target one file.
+5,Very useful app!!
+5,Fast, inclusive, versatile, and free!
+5,Please include: 1. Allow changing font size. 2. Allow searching file without ... Please include: 1. Allow changing font size. 2. Allow searching file without extension. 3. Allow changing highlight color.
+5,I have been looking for a simple and quick tool to search text files. ... I have been looking for a simple and quick tool to search text files. This seems to fit the bill so far.
+4,Excellent utility! I have a couple "ideas" I'd like to throw at you, though. What are the chances of enabling it to search LAN connections (e.g., as ES File Explorer enables wireless connection with PC)? In other words, enabling it to search my PC from my phone. Also, can you incorporate an ability to search djv/djvu files? (Motorola Atrix 4G)
+5,Great! Thanks for these apps
 5,フォルダ内検索最高！ フォルダ内のたくさんのファイルの中から、特定の文字列を検索できる。動きも軽い！もっともっと使われたらいいのに。 テキストファイルをたくさん作っているものには、ありがたいアプリだ！
 4,後は複数検索 幾つかの全文検索が出来るアプリを試してみましたが、このアプリに勝る使い勝手のよいものはありませんでした。 ただ、複数の単語による検索が出来ないのはとても残念です。 何とかそれの実現をして欲しいです。
 5,これは強い。 幾つかのファイルマネジャーで付属の検索機能を試しましたが、ファイル名検索しかできないか、シフトJISのファイルが無視されるか、でした。 こちらのアプリでは、UTF-8とシフトJISのファイルを、共にちゃんと検索できました。無駄のない作りで、使いやすさも優良です。 今後、複数語検索へのアプグレを期待いたします！

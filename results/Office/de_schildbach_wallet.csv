@@ -1,14 +1,16 @@
 5,Great App
 1,It was a great app... Bad app now because you took disconect option away..every time the wifi is turned on it drains the battery even tho you are not using the program!!
-4,. .
-3,Can't disconnect. Why did you remove the option to disconnect? I only keep this app running when I need it, and now I can't close it anymore.
+4,Can't disconnect. I'm curious to see how this kind of app management will work. Yet again, it would have been nice to still have the option to manually turn it off.
 2,Can't disconnect I can no longer disconnect. Please fix this. Otherwise fine.
 4,Very Good But... Very simple and intuitive wallet app. More advanced features such as being able to customise the denomination displayed (microbitcoins, with the name set as "bits" as some people are advocating for example). And public notes/messages with transactions would be nice.
 4,Works very well! Mostly! Works as it should, but once you start getting a bunch of transactions in there (15+) the app starts slowing down. Need to reset and download block chain info again when you have 30+? No, the app didn't hang, just be prepared to wait a good while.
+4,Some things that I miss A pin code to verify transfers Share the app with friends on various nets. Like Candy crush
 5,Responsive developer I was concerned about the recent removal of the disconnect option from the menu. Not to worry! The app will intelligently disconnect by itself. The disconnect option only stored the current connections and it would have checked in automatically in a few minutes, so it really wasn't an "off" button anyway. Many thanks to the developer who patiently responded to my many questions.
 5,It works nao Yay
 5,Can't Send Coins Finally got it to work! User error.
+5,Great Very well done
 2,Not as good as it was. Please please bring back the "disconnect" option.
+3,Goood
 5,Perfect
 5,Hey mom send me bitcoins! Thank you for any kind of donation! 1PrPXUY4MQZvRYAdfseuqGFvSgpFtvrbJC Chive on!
 5,Quick and well-designed The app is well-designed, easy to use (for a Bitcoin app), and is always responsive. Nice work!
@@ -18,3 +20,492 @@
 4,Design Easy-to-read layout!
 1,What's happened to Disconnect option? Bugger this app eats resources now.. Disconnect was useful!
 2,Battery drain Agree the network usage is low (although I'd still prefer an option to turn off background updating), but a lot of wakelocks, leading to increased battery drain. Will need to uninstall until this is fixed.
+3,Latest update What happened to the Disconnect option? I didn't mind the frequent starting up as long as could Disconnect if needed.
+4,Nice There are still room for improvement but in general it's good.
+5,Hands down the best app for Bitcoin Works perfect. Lets you see your confirmations. Easy to use. Leaves YOU in control of your Bitcoin. I would love to be able to sign messages though.
+5,Good app Good
+4,ZAR exchange Please add ZAR... Thanks Edited: thanks for adding it
+5,This is the app that caused me to ditch my iPhone.
+5,Hidden fees on send BTC Hope to not do mining in the background as the cpu is high for this process.
+5,great app best android wallet...
+5,Keep starting by itself and suck my battery. Me and 3 of my friends all have the same complain, where is the option for it not to autostart? Please allow us to choose out price source, or at least make it easy to know where it takes the price from. I really wish we could export and import private keys. This ans having a PIN, to protect from launching the app.
+4,Great app, but wastes battery This latest update (12-10-13) uses up a lot of battery even with the app never being opened and only running in the background. It's using about 10% of the battery on my Nexus 4 (4.4.2) over the course of the day. That is way too much for an app that I didn't use once today. Fix that and you'll get 5 stars because it is otherwise very well designed. Note: prior to this update the battery usage was significantly less (always on the bottom of my battery utilisation reports)
+5,Great app. Clearly the best Bitcoin app out there. This app is worth 5 stars regardless of the battery drain problem being reported which only seems to affect my Google Nexus. From looking at your source code it appears to be the same problem I had with my app. It's caused by the receiver registered in the manifest file. I have emailed you more details which I hope helps to fix the problem.
+4,Fine app, but where's DKK? I find Bitcoin Wallet a very fine and elegant app. The design is neat, it operates seemlesly and it seems to have a decent amount of features. I'm confused though why the screenshots above show the possibility to have the contents of your wallet converted to DKK when this currency to my regret doesn't seem to be supported by the app that I've downloaded ...
+4,Best Bitcoin wallet on Android but wastes airtime/battery. It's gotten better than previous versions, but it still has a flaw. It wastes airtime/battery, by self-activating itself in the background at periodic times and whenever your phone reboots. I, and many others, really wish it wouldn't do this, but author disagrees. Other than that big flaw, this is best Bitcoin wallet for Android... and thus for any phone, since Apple doesn't allow Bitcoin wallets at all on iOS! Four stars (would be five if author allowed background activity to be turned off).
+3,works fine Its a bitcoin wallet. it could be even better if we had to enter a PIN-code to open the App, to prevent coin theft if you lose your phone.
+4,Balance does not update The balance in local currency (EUR in my case) does not seem to update with up-to-date exchange rates. A quick look at the code shows that it should update every 10 minutes. I can only make it update by force closing and restarting the app.
+1,Problem sending coins I use two devices, a nexus seven gallery and a blackberry q5 phone. Yesterday I tried to sell some bitcoin at my ATM in Vancouver, and got the"problem sending coins" error others have complained about. It works last week. There sums to be no fix. I hope I haven't lost all my btc.
+3,Nice looking app. Been clicking for weeks at these free sites and going to give up. Haven't seen anything but 0s. I would start to invest real cash but starting to wonder now.
+1,Having problem transferring funds out. version 3.28. Having problem transferring btc out of wallet. Using 3.28 version on samsung galaxy s4. There is no option inside app or application manager to upgrade to latest version 3.29.
+3,Can't send coins Hi I can't seem to send my very little stash of bitcoins to any other wallet. Please advise
+3,Private key? Easy to use, thanks... but how do I get my private key? As long as I don't have private key the coin is not mine. Anybody noticed that?
+5,Outstanding app That's how mobile wallets should look like.
+5,Great App Thank you for all the work that went in to this! I'm curious though about the backup file that the app produces. Is this something I could decrypt from the command line on my computer with my password?
+1,Was a great app on my old phone Recently upgraded phones and now im not able to access my bitcoins..and worse I cant send them from my old wallet to the new one..would rate 5 stars if able to access
+5,Crypto currency wallet Simple and effective for small change
+3,Rounding issues, keys don't export. This app rounds to the nearest 0.0001 btc, sending smaller payments is a pain and users are probably inadvertently leaving micro balances in their wallets. Key exports do not work, and you have to archive to an email which is insecure.
+4,Perfect but slow It takes several hours for my bitcoins to show on the app wallet whenever I make transactions.
+3,Security. Rooting? Safety Notes. It says not to root your device. Why? O.o my device is rooted....would like to know why before I use this application.
+5,Excellent wallet! Works great, even on my older Android device. Returns unspent coins to the originating address.
+5,Good Good
+3,Can't send coins via QR code Tried to send some bitcoins to coinbase via QR code, keep getting "problem sending coins" and "failed!" I was able to send them by typing the address manually and splitting the send in two.
+5,Great functional app Its a great app and works as described. Would be good if it could store keys of people you regularly pay!
+2,Gov? What will happen if the gov trys to stop this u know with all the stuff going on like will peaple loose thar cash?
+5,Awesome
+5,The best Bitcoin Wallet app Great bitcoin wallet app!
+5,Very Good Love it. We only need the PIN feature.
+2,Crashes all the time
+5,Great app Very usefull
+5,Developer responds right away!
+4,Why I can't remove a receiving address?
+5,Absolutely pitl
+3,Curious George Could anyone spare me a Bitcoin?
+5,Get this app!
+5,must have
+4,High
+3,Ok Ok
+5,The only thing I miss Is encrypted cold storage support.
+5,Thanks Andreas This app does what it's supposed to, and I feel as safe using it as any user of bitcoin should ever feel (i.e., paranoid as hell). Keep up the good work, Mr. Schildbach!
+5,Great wallet Has always been great, but since 3.27 I have to force close the app to get the latest exchange rate (it used to just updated periodically / whenever I looked.) On nexus 5/kitkat (obviously.) Still broken in 3.28
+4,Great app Been using the app forever and love it!
+4,Great! But needs to read paper wallet. This is a great app ! Super easy to use and help other people get started with also. I have a password set to access my phone, so I enjoy the fact I don't need to put in an ADDITIONAL password just for this app. If it is added, please give us the OPTION to have it or not :) Also, I often print paper wallets as they are much more secure right now than keeping your funds online (too many stories of accounts getting hacked and people losing their money). It would be GREAT if I could scan in a private key from paper wallet and add more funds right away. Thanks!
+4,Easy to use That's one of the easiest wallet to use on the market. Good design simple and efficient features. Great backup policy (really warn user about it and it s a good thing, allow you to save it by mail) . To me it s just missing 2 features to get a 5stars rating : - allow a pin to be entere before validating an operation - manual setup of transaction fee(not all transactions need a speedy transfer. Example the one between my own wallet. It s something even my bank would not charge me for)
+2,Balance doesn't update! The bitcoin balance does not reflect the most current exchange rate. I have to manually force quit the app and reload it to see the exchange rates and balance update.
+4,DKK Why have you removed the ability to show the value in DKK? Besides that, it's an excellent app.
+5,Thanks for adding mBTC! Best wallet app I've come across. Keep up the good work! (PS, the prices started updating after I force closed the app. I probably should have done that after the update anyway.)
+4,Excellent... but But in serious need of paper wallet and security pin support.
+3,Needs a Password! A nice clean app! Clear smooth but it really needs a password, asap! Give password feature and it will be 5 stars!
+4,One of the better bitcoin wallets I have found for Android. Sent donation to app developer... Thanks for this great app! Would be great to have better privacy: CoinJoin, new address when sending ability to delete addresses.
+1,Missing important features There appears to be no way to import a private key, so this cannot be used to spend from a paper wallet or sweep from it. There also appears to be no way to specify a fee, which is quite dangerous.
+5,Simple.. One of the finest android app out as of now
+4,No peers It wont connect to any peers since KitKat.
+5,Works great! Definitely the best Android app for Bitcoin. Thanks!
+4,Give me control of transaction fees The acceptable lowest amount is .00004 btc, which is fine for little test or minor transactions. Otherwise great app! 5 stars for transaction fee control and password lock!
+5,Great app Adding a password would be nice
+1,Can't add my bitcoin wallet I already have a bitcoin wallet but it won't let me add it on this app. It only adds me new ones. Please help!!!
+5,clean and secure
+1,Crash every time since update
+4,Works well, easy to understand BUT keeps launching in the background. Works well and easy to understand. Used it for a transaction the other day and everything went through smoothly. The problem I have is that it keeps launching and connecting to peers. It has a background service that I just can't kill. I don't want or need my bitcoin client online at all times. If you're doing a lot of transactions, then this will work well for you. Edit: quick dev. response +1 star. I'd still like to be able to decide for myself what runs (and when) on my phone. Thanks for the reply!
+5,Couldn't be better. Tried about 6 different wallets and this is the best one by miles. Great UI and runs great even on my in need of upgrading phone.
+4,Great but Needs a PIN password so people can't access your wallet so easily, otherwise it's perfect
+5,Works perfectly as intended. No issues with the app or anything else. Get it and join us in the world of bitcoin users.
+4,please acknowledge what is being fixed with all these silent updates. we need to trust this app in order to use it, please work to build that trust.
+5,Great app! I had a bug, but with the help of the developer, the problem is now fixed!
+5,I'm in love with bitcoin! As a new starter having this makes me comfortable :-D
+4,Awesome Wallet Had to manually import my secret key from bitcoin-qt, but it works great now! Would be even better if I could sign messages from within the app so I don't have to go home to sign for a transaction!
+4,Great app There's two only simple features I would like to be added that would make this app much better. One, I would like to be able to add multiple addresses under a single name in the Address Book. Two, I would like to be able to scan in private keys from a QR code.
+5,Problem When I first downloaded the app, it gave me a wallet ID which I locked to a Slush Miner, From then I deleted the wallet app and it provided me a new Wallet ID. How would I add back my previous wallet ID? it doesn't let me input a specific wallet address, it just automatically generates one for me upon adding a new address
+5,Let's see Looks promising but I haven't been able to get coins on it yet but I'm hoping it works like every ones says it dose :-)
+5,Lower fees? This is a great app, but with 1 mbtc now worth $1, it would be nice if we could set the fee we want to pay for transactions. Or at least make it lower than .1 mbtc ($.10!). That's a lot! Thanks - I'm sending 10mbtc donation now (a7fce28062d5df5778e855567693926c5294ca97f7ca47d22be5f17aef8ecebc). BTW, yes, I'm switching to mbtc unit. Would be nice if we could specify units as well.
+2,Do I need to keep this app online if somebody send me money? I can't stop this so I have to uninstall it..... Maybe I install it back whenever I need it, hopefully there is good alternate.
+4,Sivakbio One of the best bitcoin wallet around .keep up the good work
+4,Very good but requires a bit more features. It would be nice to have: mBTC, uBTC, paper wallets, backups, better import/export. Great job anyway. I like the design and UX.
+5,Fantastic app to manage your Bitcoins
+5,A+ please port this to other currencies I would happily purchase a Litecoin wallet from this dev, if it worked like this Bitcoin wallet. Great app! (Some of the other altcoins would be nice to have mobile wallets for too....)
+4,Please add mBTC Great app, but could you add an option to view the balance in mBTC? My balance looks a bit small in BTC terms so I'd feel better seeing it in mBTC :) Other wallets have added this as an option so I think you should too :) Thanks
+5,Verified. Good software.
+3,Signing messages? Is there a way to sign messages that I have not found?
+5,Great Awesome
+5,Amazing I love bitcoin
+5,Excellent Bitcoin App I love the addition of mBTC! This app is very stable, very usable, and is a actively supported by the developer.
+5,bitcoin best
+3,Nice layout but..... Why does it need camera access? I dont agree with this for the time.
+5,Strange Issues I had some issues in the beginning but then it started working great so I love it!
+5,Feature Request It would be awesome if you could add private keys manually and by scanning QR codes . So paper wallets can be redeemed. I know its a small thing but it would round out the functionality to be a complete solution to all your bitcoin needs. I don't want to have to use an ewallet like blockchain to redeem paper wallets.
+1,Can't see my balance Well I'm earning some bitcoin by visiting websites but I can't see them adding here
+1,Lost bitcoins I sent bitcoins out to an exchange site and they never got sent and blockexplorer has no such transaction so now I'm out some coin. Definitely never using this app again. Its a shame too because it was very nicely designed and easy to use.
+1,My balance disappeared. I had made 2 deposits to my wallet. 1.77 BTC. Today my wallet shows BTC 0.00 no bitcoins received so far. I think I am screwed.
+5,Bitcoin wallet set up I'm new at this and at all things technical. Can someone walk me through it all? Perhaps someone could come to a mall near me and explain and hep me get situated. I know that this is the wave of the future and I want to be a part of it and support but at the moment I feel like a handicap. I need some serious help. If I get situated a whole lot of people will be able to use my cab service!
+4,Bitcoin Wallet Great wallet! Clean interface, easy to use and create backups. I only ask for a small feature: the ability to change which BTC unit the user sees. I think it makes sense to be able to see your balance in mBTC or É BTC by default. Thanks!
+3,Received but can't send I don't understand why it giv es me a error message when I try to send coins. Is there a min. Amount please fix.
+5,Great app. Best backup from a developer I've seen... Lovely app. Thank you Andreas !!! I emailed you with a query and you answered immediately. Thanks for your app and your help. You sir, are the best, as is your app !
+4,Simple little wallet Works ok, my day to day butcoin wallet for small transactions. Not much to complain about, mostly works.
+2,I lost ALL MY BITCOINS i had over $1000 worth of bitcoins and because of a phone failure... The app is gone! Deleted, i have a new address and i dont know how to get into my wallet.. I was not able to do a backup before the reset ....
+1,Very long delay I received bitcoins 24 hours ago. I can see them in my balance but I canÅLt spend them. The message still says: This payment should become spendable in a few minutes. I am becoming really worried!
+5,Good for beginners I always recommend this wallet to new bitcoin users. It has a simple and uncluttered interface, and all the necessary functionality to get used to bitcoins. My wishlist would be: 1. lower default fees - the price has risen so much that the fees are now too high for playing and getting to know the app. 2. More exchange rate transparency - it's not immediately apparent how rates are calculated
+3,Security concerns 1. Is it possible to put a password on this app? 2. I have a balance but when I enter in a value to send the "send' button gets greyed out:(
+5,Great Wallet, Awesome Support! Have been using the wallet for a bit now, and my phone dumped all memory. I had the keys, and the developer helped me get my wallet back the same day! Thanks guys! I may be contacting you about developing an app for me!
+4,Do you have any back up recommendations please? Good product, simple and easy to use.
+5,Excellent What a great app, so simple to use, my wife and I were exchanging BTC in seconds. Good to see Andreas taking people's issues seriously with personal responses and fixes. Will run with this for a few weeks, and if it stays stable and gentle on battery, will be making a donation.
+4,Great app How do I change the exchange to MtGox?
+2,APK files are associated with this app When I try and install an APK I've manually copied to my device, Bitcoin Wallet opens up a restore private keys option and won't allow me to install the app.
+5,Great app. My fave. Would be nice to change units to mBTC, now when price is higher.
+5,Been great Nice clean interface. Works perfectly 100% of the time, needs to come with free Bitcoins but otherwise perfect. :)
+5,Very -very nice support The author answered very quicly and solve my trouble after the app crashed. Notice that if the app crashed just after send coins the latest opertion can be not present in transaction history. if it possible please fix it.
+4,Easy straightforward Would give 5 stars if app could be PIN to open and could auto backup encrypted to Dropbox.
+5,I love it Simple to use, easy interface.
+1,Crashes , Seriously buggy Crashes out while catching up with the block chain on Samsung Galaxy S2 , Google Nexus 7 and Android X86 in VirtualBox. Seriously buggy. Use *anything* else.
+5,Deposit doesnt show Disregard my previous post. Funds came through.
+4,Can't seem to add my existing wallet App seems great but how in God's name can I use my existing wallet!
+4,The best and most secure of the available applications. Just needs a password ... The best and most secure of the available applications. Just needs a password option at first login to make it perfect.
+5,Add existing wallet? I had bitcoin wallet installed and backed up, but the phone had to be wiped. How can I restore that from external storage? The app seems to have no option to do that. Edit - figured it out. It had to be in the Download folder in order to be detected.
+4,My Favorite Bitcoin Wallet Very good design, easy to use... missing import of private keys though.
+1,This app is a joke Bitcoins were transfered and nothing has appeared all day, yet I saw it transfer with my own eyes. Broad day robbery. Lucky it wasn't a large amount.
+1,So where did you hide the paper wallet balance checker? Pretty sure I looked at every option and pushed every button. Uninstalling.
+5,Simple and effective Provides essential features, doesn't add any bloat. Interface is straightforward. I always keep a few bucks worth of btc on my phone and this app is great for that. Its easy to back up your wallet and archive it on Google Drive or other cloud storage.
+4,Works well! I would like... This app works very well.
+4,Great Has option to restore wallet from backed up keys ;)
+5,. Got help quick with a transmission problem!
+5,Is good Very fgo .
+5,mBTC and tx fee options please Due to the recent price jumps, I think offering mBTC and uBTC options for viewing coins would be nice, and ideally it would be mBTC by default. It would also be good to enable different transaction fees, since the current fees are a very non trivial amount of money. It would be ideal if the fee was 0.1% of the total transaction by default, but adjustable to zero if the user wants.
+2,Charge Do you always get charged when you move bitcoins from this app wallet?
+5,Awesome app! Double plus good!
+5,Best Best one out there
+4,Namecoin support? does this app support namecoins?
+5,Must have Get it!
+5,Super Super
+1,Lost 6 btc Stays gray when trying to transfer large amounts. Now crashes evrytime I reset the block chain. And takes almost 5 hrs to complete the reset only to have the same results. Doesnt seem like the developer knows whats wrong. Now, I feel as though ive been robbed foe 6btc
+5,Excellent app and good support This app makes it easy and safe to get startd with the bitcoin network. Not only the app is simple and great but the support is also excellent and the development active. SAFE CHOICE for a Bitcoin Wallet. I had then an issue: the app kept on crashing. I contacted the developer who answered withing a few hours and the issue was fixed!!!
+5,Keeps crashing Worked wonderfully last couple of months, today after I did a transaction just keeps crashing everytime I open it. Can't retrieve my coins still left in it. I notice if you put your phone in airplane mode the app stops crashing. Update bug got fixed asap
+2,Wallet Missing My wallet just dissappered after I funded my bitcoin this is my receiving address.. 1NPuMm3LADMLz48aAgGoW9z2RHm33eYHUE. Pls kindly fix it ASAP
+5,Quick support Recovered backup keys, reset peer network and I am back in 2hrs.
+4,Great until now! This was a great app until today now wont load an keep having to force closed. If this problem gets resolved i would recommend to everyone. Have used this mobile wallet for about 6 months with very few problems.
+5,Excellent Loved this until all addresses changed...Pool mining owners WILL NOT HONOR my new btc address from this app and I lost a lot of $$$ now (over $300) and they won't refund me...So now the btc is being sent to the original address I had back in May and it's nobodys
+5,Nice wallet User friendly, easy to use.
+1,Crashes every time I open Can't access coins Very nervous.
+1,Backup and restore feature is horrible Just because you have the option of seeing the password you encrypt it to doesn't make up for a lack of typos that people with dyslexia may overlook and there's no way to recover the password. I can't restore my wallet even though I emailed myself it's address as a reply to archiving the backup to my email account.
+5,Excellent Thanks for all the hard work you put into this.
+5,Great! All it needs is password protection!
+5,Great Big fixed very quickly. Thanks
+5,Good Bitcoin wallet The maker fixed a bug very quickly.
+5,Simple yet elegant I love it.
+1,Won't even download Won't even download
+5,Works well A very good mobile wallet.
+5,Nexus 4 Apparently it was caused by some faulty exchange rate.
+4,Question Is this an offline wallet?
+4,Let me close it! Why does this app keep opening even after I tell it to disconnect and close it?
+5,Fixed Thanks!
+4,Light option hidden I had to use a friends phone light to scan the code in a dark place, because there was no hint about the volume button trick to turn the light on :)
+5,Works well
+4,Drains my battery With Bloom filters, it updates days in seconds. There is no need to constantly wake up my phone. Wake it up once per day but not constantly. It accounts for 71% of my battery use without using it. Ahhh! Just had to update the %%.
+3,Keeps syncing? I've been using Bitcoin Wallet for a while, but in newer version on the S3, it automatically starts syncing. I then have to open the app and disconnect it. I only want it to sync when I'm in the app. It should start syncing on its own. Is this a bug? Very annoying. Considering just switching to coinbase for my mobile wallet.
+1,Ok Now tells me time is off by 200+ minutesfor no reason. Unusable.
+5,Great Work Really like the effort you have put in here Andreas! I have only one wish , can we please please please please have the ability to show our balance in mBTC???? PLEASE!!!! Regards, Andre.
+3,Takes a fee from every transaction No warning, notice, or option but this app seems to take a cut of every transaction. I transferred 0.3 BTC to this app and then back again but it only let me transfer about 0.29 BTC and then my balance was 0. Bitcoin transaction fees are optional and adjustable, and in my experience are not necessary at present as my transactions tend to get included in block chains fairly quickly without them. So the app should allow me to opt out of them.
+5,Smart and pretty , yet full fledged and reliable Most of the functionality of bitcoind, but made for mobile usage, congratulations for this great app.
+1,Losing coin This app is eating my coins, very dishonest to advertise it as a secure wallet.
+4,Almost there... Dev... can you add wallet balance to "send" menu?
+4,Good... Just needs To have a security pin or security gesture to unlock then it would be perfect. Well done. TooCas
+1,New Version Extremely Invasive I don't know what you changed other than the security flaw in this new version but I had the wallet set (possibly inadvertently) to only sync when plugged in. Now I have to constantly open the app and choose disconnect, about 20 times a day. It probably doesn't eat that much data, but when I'm on the phone and trying to use the web it slows everything to a halt. The option in settings is now gone (sync when connected to power).
+2,Disappointed Still randomly connects and wastes battery and traffic without asking me. Even if I restrict background data it still can connect via Wi-Fi and waste battery. My phone isn't charging all the time so why should I waste the battery for this? I'm at work and using Wi-Fi to realize all of a sudden that Bitcoin Wallet started and eats battery while I don't want it to do it. Why not give users the possibility to sync when THEY want, not the app? I don't get it and consider it humiliating.
+5,Awesome Awesome
+3,Cannot disable background syncing Really needs to have an option to disable background sync entirely, or at least control over the length of time between syncs, as syncing holds a rather long wakelock.
+3,Behavior HAS changed I had this app for months and it never powered itself on (confirmed through occasionally opening it and seeing how far behind the blockchain I was). Recent update has as many others mention changed this, and I'm very concerned by the developer's responses to the contrary. He did great work with this app but I used to be able to activate it when I wanted, not having to worry about it launching itself or lurking in the background. I will edit this review back to 5 stars if this issue is adequately resolved.
+5,Dropbox? Export private keys to Dropbox would be nice. Google drive is good for now.
+5,Very pleased Does exactly what I want.
+3,I'm using it Not bad
+5,Simple and clean. Works a treat on my N7.
+5,Great wallet Amazing wallet but the sync on power is missing and its killing my battery. I read about the Data Usage options but there is no sync on power. Only Mobile data, which is totally different. I do not need bitcoin notifications. I do, however, need my battery.
+4,Fast and updated regularly I Haven't had the opportunity to use it for a wallet since I can't import from my pc app without charging a fee to myself, but its done what I want and keeps me up to date on bitcoin. Only big thing that its missing is a working bitcoin button[icon] that does something(maybe user set to get to preferred btc exchange for values). Also noting it seems in the last 3 updates that "run on charge" option is gone and I liked it. Please bring it back?
+2,Keys Export-import does not work.
+1,Stole my coin Why does happen they updated 4 times a day they took all my coin...now i dont want to use this wallet I switch to nonfiction
+5,Great app Good for all your btc.
+4,Very sleek; yet has bugs I love using this app to carry small amounts of btc on the go; although it's bugs are quite annoying when they pop up. Developer is very responsive and will hopefully iron out the bugs.
+3,Cannot export primary key plaintext Any chance for public key only import?
+4,Excellent Layout - Powerful Features I love this app. It is exactly what I'm looking for in a Bitcoin Wallet. One feature I would love to see is PIN protected access (to open to app or to send BTC).
+2,REFUND Please give us back the internal transferred bitcoins.
+3,Btc loss equivalent to 100's USD Nice app. Only thing is I sent some coins and they got hung up. After days of my wallet not having the coins and the transaction being greyed out in limbo I exported my private keys, and uninstalled & reinstalled this app. I then imported my backup and lost another few hundred dollars on top of the couple hundred that seems to have vanished. I am aware that this was risky behavior for me to rely on this app with as much money as I lost, so I blame myself as well as the programmer's faulty skills.
+4,Very good, missing something Well-made app. Could you please add an "only sync on charge" option. That would make it 5 star for me.
+4,Great features but crash-prone The author seems to have thought of every feature I wish for, but the app keeps crashing for me, even once when trying to tip the author. Now that transaction appears grayed out in "not transmitted" state. That would suck for larger/more important transfers.
+1,Stole my money! Latest security update transferred BTC from my wallet without asking permission! It was a tiny amount, but it is totally unacceptable that it happened without my permission.
+5,Looks good but... ...With the recent update due to the Android random number issue, I have a new, secure wallet and a transfer of 0.0001 BTC's transferred to it from the secure wallet. Weird. Trying to move the rest the app will only transfer 0.0001 each attempt. A bug? Edit: must have been my mistake transferring from and to the same wallet. Thanks for the prompt response. Maybe not allowing this and also helping the user when it comes to selecting how much to transfer. Thanks!
+5,Reliable Development Great wallet, and extremely fast on security fixes. On Note 2, I don't see any drop in battery life with semi-regular use.
+5,I like it So far so good.
+5,Thanks Thanks for getting the update out so fast! You're doing a great job with the app
+3,Probably most secure, but uses too much power Nice app, but somehow uses 13% power on my i9505G now. I don't care about mobile data costs and traffic (unlimited plan) and am on WLAN most of the time anyway, but this is just not good enough for an app I use only sparely, eg once a month. Could we not have an option to disable background actions or some other power saving scheme?
+5,Must have upgrade Not an option to not upgrade people. We are talking about your money people!! I personally lost some because of prior version crypto library compromise that is known sufficiently to get your coins gone quick so hit that upgrade button!! Anything below this version is not the one you seek (wave of hand) :-P
+5,Awesome Great app. Helpful
+4,Easy to use, fast Very impressed by this app. Makes carrying around and using my bitcoins very easy.
+5,Easy and robust Very easy to use, very stable and secure.
+5,Excelent app
+5,Nice Thanks
+1,Does not seem to work How do I add bitcoins to my wallet from a physical BTC Address printout and private key?
+1,Kills batt
+5,Excellent App & very frequent updates
+5,Awesome app I have used this app to pay for things in bitcoin irl. It works great and I've never had a problem with it. The developer is awesome and updates it with new features.
+1,Unauthorized Transaction I get the need to regenerate keys. What really concerns me is that this app was able to perform a transaction without my authorization. I only lost 0.0001BTC, but what stops the app from updating and transferring more?
+1,Why the auto fee? I realize its only ~.01$ at the moment, but still, there is zero indication of the fee until you look at your balance after you send coins. I transfer a few micro-btc from my tablet to my phone on a regular basis depending on what im doing and having to pay a fee to do that every time eats away at my balance and is very annoying. Can you please re-enable the option for not including a fee if you dont want to include one?
+4,Lost coins Please post a notice in the app description that there will be a minimal transaction fee for changing wallet IDs. Why did I lose 0.0004 btc due to the internal transfer required by the security update?
+5,Top quality Well polished software, excellent
+1,background sync I simply can not allow this app to sync whenever it wants, regardless of which network I'm on. add an option to disable... restriction is valid to all other app as , but I want to restrict only this one.
+1,No bueno Give me back that transaction fee, assholes!
+2,Now auto-starts itself As others have pointed out, this app has lost the ability to stay inactive. It now spontaneously restarts itself in the background.
+1,Keeps connecting to network I like to control my data usage. These updates have killed this application. Was good before.
+5,Easy to use Easy to use.
+5,Best Option
+4,Looks good App looks good but sadly i get a problem sending coins message anytime I try on my HTC One
+4,Top contender Great wallet, very reliable, goods features. Needs ability to change to mBTC and uBTC and also a "spend max" like with mycelium wallet. Keep up the great work Andreas. U are a leader and visionary.
+5,Number 1 for security Withing half a day of a security issue withing the Android OS being disclosed you guys release a fix. Nice one and thanks.
+1,Starts by itself Been using this app for quite a while. It had the option to not start when plugged in or booted and such, now it has no such option and starts of its own accord. Emailed the developer only to be politely told to keep my opinions to myself. For that reason I will be uninstalling.
+4,Great Wallet Easy to use, pleasant to look at, and free. Security update was rolled out quickly, thank you!
+5,The perfect Bitcoin wallet for your mobile device It's fast, feature-complete and comes and comes with a nice, easy to use interface. Also respects your freedom (GPLv3 licensed free software).
+5,Really nice bitcoin app Does its job and really pleasant to use. One more star for the ultra fast security update. Thanks to the developers!
+5,Well done Very happy,bravo
+4,Nice functional client ... but I'd really welcome a way to hide and / or categorize addresses from the GUI.
+4,Nice, could use a few more features Why not have an option to force password fillout when sending coins?
+1,Scam!! Dont bother with this. It says your paid at 100uBTC. I was using this for quite some time and got paid nothing at all. Not a single thing. Dont waste your time with this app!!!
+2,Money stuck Waiting for money block chain says i have more than shown in the app
+1,Useless. I can't add my key. Useless.
+5,sexy interface spank you sir.
+4,Good wallet - but it is always up. New review. great wallet but it is always lunching in the background. How can I disable. *** Thank for the answer. I think if everybody remember an option to disable sync when phone is charging,then maybe there was that option. Anyway great app.
+1,Won't stay disconnected Since last update it keeps connecting after I have asked it to disconnect. I only want to connected when I wish to be. Please fix this.
+1,It glitched I lost .019 coins because this app glitched.
+1,Was going well for a week now money is stock in transfer for 3 ... Was going well for a week now money is stock in transfer for 3 days now hate loosing money deleting this app
+5,Great app Great app. Donated 1 bitcent. :)
+5,Problem Fixed At first I had difficulty sending BTC's from my mobile wallet. After writing a review, things seemed fixed almost immediately. At this point, I have no complaints! The app works fine!
+2,Auto power on all the time Uninstalled since the new version automatically powers on all the time!
+5,Top notch! Its an awesome app.
+4,Password Hi can I set s password on this app so if someone gets my phone they can transfer my bitcoins????....
+5,Bitcoin at its best No problems with this app, design is really good and keeps with the android look
+1,No change address No change address for change from transactions. A huge security hole every other desktop wallet had addressed.
+5,I like this wallet very much. Please explain how it works. No blockchain download. No server? Is that correct?
+3,Newest update is not good. Had to revert to stop the crashes and runaway memory usage.
+5,Critical Bug A severe bug has been found which affects all Android wallets. The random number generator in Android sometimes generated the same number, meaning the same key was used to sign transactions. This means your private key *could* be at risk. When the next update comes out PLEASE update.
+5,Great little app. Truly great. But I would like to see options for mBTC. And how do I extract private keys without root rights?
+3,Keeps crashing App keeps crashing on opening since update. Cant transfer bitcoins that are stored on my mobile device
+1,Burn your bitcoins This app is a discrace it works well until about a month layer when you have money it crashes once. When this happens that's it it won't accept payments or be able to backup after several complaints I realize this developer is in it for the fees she dosn't care about my $100 she's vanished into thin air she just is a blunt lazy stupid developer I recommend any other wallet except this one I have 3 versions of android dosn't work on any AVOID
+1,where my coins ? not sure this is a good app can't see my coins any one knows how to fix this
+4,Getting a lot better
+1,automatic fee !! This client is forcing a fee without any warning. The user should have the choice to de-activate the automatic calculation of fees (i.e. as it was the case until now). Do not say they are not hidden when they are only displayed after the transaction, when it's too late to cancel.
+5,Great Bitcoin Experience Only Bitcoin wallet app that doesn't actually store your private keys on some third-party server. Great UI and clean feel.
+5,Good Ok.
+4,Long time user Is there any way at all to retrieve a bitcoin wallet once your phone has been reset? I still my wallet ID.... Please tell me so
+5,Great app from a helpful developer Solid build with a great ui, I love that my balance in btc is also shown as current trade value. All issues I've had were responded to and fixed by dev, with haste! Thanks
+4,Private key = ? Nice proggie, thanks Andreas! However, would like to export MY private key in cleartext. You only give me some encrypted file with no extension, openable only by your program or the Android SDK. No! I need (maybe behind a few warning popups!) to have my private keys.
+5,Latest update a-ok Best wallet app
+4,Learning Please teach me how to transfer bitcoin to real bank, and withdraw money from bank.Thank you
+5,Great app and interface This was a good idea, it's not always possible to have access to an Internet connection when on the road. The interface is so much more pleasing than Blockchain app they could really learn a thing or two. Nice work!
+3,Security? This app seems to make automatic unencrypted backups which I can't find and delete. Seems like a large security risk
+5,Awesome Fast, reliable and sleek..!
+3,Hopefull The app sends and receives coins fine but tends to crash a lot on send and receive. Maybe the app doesn't like it when you send or receive dust transactions? I've been playing satoshi dice and the transaction list is getting longer and longer and seems to lag out when switching between send/receive/both tabs. Nexus 4. Didn't seem to crash as often when it was a shiny new wallet.
+5,Looks great, clean ui, well done!
+3,Invalid address Other wallets always tell me this one has an invalid address?
+5,Great app!
+5,The quintessential Bitcoin wallet app for Android. Couldn't be happier with this app, Droid RAZR Max.
+1,Force closes App constantly force closes. Used to work great though. I would like to send a crash report but unfortunately it force closes before I can complete one
+4,Good, but sometimes unstable Works great, and easy to use. But sometimes it crashes for seemingly no reason. Transfers are never lost, so this is mostly a small annoyance. 5 stars if that bug can be squashed.
+4,Much better Now works again!
+1,needs a key import tool from another program i spent more than 140 hours nearly frying my gpu and when i had my vanity adress ready to import, i found out that the import tool its only for its own backups and i can't import my wallets. otherwise 5star app, fix it and il'l change my rating edit: i imported my vanity adress via a huge securyty flaw on rooted systems that allows you to view and edit key backups, encryption or an option to disable automatic backups is a must, till then 1/5 because its urgent
+4,Overall good Works great, but I wish there was a way to adjust the notification settings. I like getting a notification, but I don't want it making noise
+5,Excellent This is a great Bitcoin wallet app. I wish there was a simple way to send addresses to a computer (integrated email perhaps?). But overall this is quality on my S3.
+4,App Data Backup I can understand why this feature is disabled. However the ability to backup Bitcoin Wallet data should be the choice of the end user. After all most users will be tech savvy and have rooted devices with custom recoveries. App data can be equally pulled from an img file just as easily.
+5,Super easy to use. Lightweight.
+2,Continuously force closes since updates. Ap worked really well and was great for up to the minute Exchange values for bitcoin until recent updates. Now the ap is slow and the last 7 times I've tried to open it, it force closes before I can do anything. Please fix the bugs.
+5,Great and functional app, improvemts still needed. Would like to be able to add some "tip" on top of a base amount (eventually, as a configurable % of the base amount), probably as a hidden feature by default, but available somehow. I'd LOVE to have the QR code reading directly, without needing to tap the button, like the second half of the screen, when I want to send money. So I can tap "Send money", and I can choose to type in the address, type in the amount, scan the address, type the amount, or scan the bitcoin: address, type nothing. All on one screen, all without added clicks or interaction. To be used in a point of sale, make sure the workflow for the "requested" is less clicks, and make buttons and widgets larger, so there's less risk of error and we can tap on the screen faster, at some predictable places. Great app! Thanks!
+4,Great, but needs encryption! Work very well and convenient. But there *definitely* should be an option to encrypt the wallet (or at least the private keys), requiring a passphrase whenever you send a payment (not necessary for just checking balance or receiving payments). The advice to "only install apps you trust" is pretty much impossible on Android these days, I can never be sure some app won't read my wallet and steal my money. Encrypting the private keys would prevent that. Safety and security is a *must* with Bitcoin!
+4,Great App is great but QR reader will not auto focus on my galaxy s2. Other qr readers work fine but obviously there's no way to hook them into this app so it doesn't help. *Edit: I can confirm that using ZXing did work so that's pretty great. Sadly I will not be able to send Andreas a free S2 ;-)
+4,Better than the Bitcoin desktop client
+2,Bad Very unstable
+4,Nicely done Very slick UI. For some reason though I can't see the minuscule transactions that have been sent via bit coin tapper to the my wallets address. I wonder if this is a bug. Bitcoin tapper shows I have .00017 BTC
+5,Great app Ive been using this app the past few weeks its great the only thing is I would warn not to have too many transactions your address as it may lead to crashes the development was very fast at responding to my issues and concerns
+4,Not bad Everything works nice but the widget doesn't show up correctly on my Nexus 4.
+3,Multiple addresses confusion I have just installed this on my device and created two addresses. I transferred some BTC to one address and some to the second one. I thought the wallet will show the individual balance associated with each of those addresses, but I was wrong. Bitcoin wallet is now showing me one single balance for the BTC associated with these two addresses. My question is, I assume that since I cannot send BTC out of each address for more than what it owns in the address (for example, address A - 0.5 BTC, address B - 1.5 BTC), I cannot send 1 BTC out of address A. But now since bitcoin wallet is mixing the two together I am unable to find out how much BTC each of them own... Or there is some other way that I am not aware of? Confusing...
+3,QR doesn't work App looks great but the QR camera never focuses (on Galaxy S2), and makes it impossible to read QR codes. Additionally, is it possible to add a watch-only wallet?
+3,Have some chain issues but love the layout and functions! Syncs up half the chain and then just stalls out. Left for a few days in afternoon at 5mo remaining, never got any closer. Not sure if it's space using internal or if it's a ram issue or bug in large history sync.
+5,Backup NOT missing EDIT: Apparently there is a backup, sorry devs, ty. 5* Should implement Data Backup (android.app.backup) just in case phone is bricked. It happened to me. Not blaming anybody but me, my own irresponsible self's fault. Just think this feature could really be a life saver :) Awesome app, recommended! Just remember to keep your mobile close, and your bitcoins closer.
+4,Good but gets slower over time Been using this for a few months now and as more transactions take place, the app really slows down (to a point where i can choose close/report/wait) pretty often. Did reset blockchain, also backed up my keys, remkved the app + data, reinstalled and reimported the keys but still slow..
+5,Restore is a little confusing "Backup Keys" menu item should probably be renamed "Backup/Restore." It isn't clear that you can restore. Also upon restoring the private key, your old default bitcoin address is not set as the default. I doubt that can be fixed, though. Otherwise, fantastic app!
+1,Too many small transactions never appear. I've been using this wallet alongside another for testing by visiting web sites which pay micro-sums for clicking and visiting for 5 minutes. With the other wallet, every single micro-transaction appears, but at least 60-75% of them never appear with this wallet. The other wallet will show 7-8 transactions over the course of the day whereas this one will show 2-3 instead. Where do they go? I'll stick with the wallet that doesn't seem to "lose" any money.
+4,Encryption Please add encryption options for this client to mitigate lost device risk.
+4,Drains battery like hell And doesn't disconnect when ordered to.
+3,Good app, but needs some features Pin or other security on the wallet, and ability to import a paper wallet a must. Would also be nice to import the wallet from the desktop as well. Seemed well put together and decent as your only Bitcoin wallet, but as a mobile companion, it's not quite there yet.
+5,Works well. Support is great. Had a little issue but the developer gave me some great support promptly. :-)
+5,Very polished I've used it for years now, no problems at all!
+4,Very good Great app use it alot. One thing though is when I type my bit coin address is that it says its not available. Other wise great app.
+4,NFC?? Cant seem to find anything NFC related? Can anyone help?
+5,Don't let the Fed Reserve screw U Get BitCoin
+2,Crash Fest Working 30% of the time on a G3.
+2,camera not working with app using nexus 7. camera wont start, so its impossible to scan qr codes. makes it kinda useless.
+3,Unexpected behavior Keeps reconnecting peers even after multiple disconnects - have to force stop to get it to quit; kind of disconcerting considering this is supposed to be a wallet
+5,Easy to Learn, Works Well This is the first Bitcoin wallet that I've ever used and I found this to be very easy to learn and understand. Getting this free app was the impetus behind my learning all about Bitcoin "mining" and how to earn free Bitcoin. It is a bit like alchemy, I tell you!
+5,Great app Works smoothly
+5,Great app Written really well, respect!!!
+5,Very nice Good looking Android app that seems to work well. I'm only playing around with Bitcoin but it does everything I need.
+4,Caused me to start exploring Bitcoin 4 stars because this is a very nicely done app with some great functionality. However couldn't give it 5 because I couldn't find anyway to adjust the notifications, ie turn off the sound. Also, what does the green dot in the transaction list represent and why does it grow like its a pie chart or something?
+3,Annoying It's a good app but it's randomly started opening and connecting to peers even after I've hit disconnect and closed the app.
+4,Almost perfect - leave precision at 8 This is a great app with one spooky little bug: If your balance is very, very close to a whole number (.999999) and the precision is reduced to 4 or 6, it will display a very incorrect BTC balance (e.g. "0.10" instead of 1.0). Of course the real balance is correct, but it was scary to see 0.9 BTC disappear momentarily. Still recommended, but leave the precision at 8. ;) Gingerbread
+5,New update fixed issues Thanks!
+5,Excellent Best Bitcoin wallet for mobile. Lovin' the widget too.
+5,Great app, easy to use This is one of the best bitcoin clients around. For anyone new to bitcoin, I think this is the app to use as it is much more secure than "cloud" wallets.
+4,Almost perfect All in all a very useful thing to have on your phone. One suggestion: Although the app lets you create multiple addresses, the "send coins" interface uses whichever one is the current default. It would be tremendously useful to be able to select your sending address from the "send coins" interface directly.
+5,works well. Just got this a few hours ago and I was sent some coins said to arrive within 5-30 minutes, but it only shows 0.00. Tried resetting the blockchain and restarting my phone but no luck. Update: the wallet actually works great, it was just a shiesty webcompany.
+4,Good at first It worked well at first but after a couple weeks it stopped being able to download transaction history
+2,Question I guess if one were to accidentally do a factory reset on their phone the bitcoins are gone. Correct?
+5,Great App, Proof of Concept for Bitcoin. This well written app proves that Bitcoin could be a viable cash alternative even for *offline* commerce.
+1,Potential Thief? I've been using this wallet for a while now but over the past few days I've been doing tons of free uBTC offers and after 3 days of doing so my rewards stopped coming in. Tried a different wallet and voil? it worked just fine. So does that mean that the creators of this app are keeping my rewards? I don't know but it sure does seem like it. Bitcoin is supposed to keep the middle man (Banks) out. Going to be sticking with offline wallets
+5,Ok Shows peers IP. Could hit them with a ddos
+4,South African (ZAR) Currency Great app, working well. But please add support for South African (ZAR) Currency
+5,Love it Using for nearly a year I think now regularly updated feature rich
+5,Awesome Love this app. It is the perfect mobile bitcoin wallet.
+5,Great for on the go! Awesome app for on the go and great support from dev!!
+5,Great wallet, but not without problems It crashes every time my mytouch4g slide changes orientation. This is very frustrating as I use my keyboard (qwerty) a lot. Fix this, and 5 stars it is. Update: as of latest update this problem is resolved.
+4,crashes when I try to send bitcoins I have been impressed by the responsiveness of the developers to comments and concerns. Was finally able to transfer coins ... My original comment: Every time I try to send bitcoins to an address ... either using QR scan or address book I am getting an error msg "application unexpectedly stopped please try again" :(
+2,Crashes constantly Worked great on my droidx for a week or so then began to lose the blockchain. Now it crashes constantly if i try to reset or send btc. So i cannot get my coin out.
+1,Buggy. Keeps crashing. Last crash required a full block chain update.
+5,Works great It would be great to implement the feature to just refresh the blockchain over wifi.
+1,Needs Work I Can receive bitcoins fine and send small amounts but when I try to empty my wallet (considering a BTC 0.001) commission I get a message that says ÅgThis payment has not been transmitted yetÅh and it just hangs there for days while showing my balance at 0.00, and yes I did the math to make sure I deducted the proper amount from my balance to cover the commission, the only way I can get rid of the null transaction is by resetting the blockchain in the preferences areaÅc as of now the concept is good but the app is basically useless if this kind of stuff keeps happening, when these problems are fixed IÅfll consider giving 4 or 5 stars.
+5,Good App! Still, there are rough edges, and it needs some work, but it is already useful! Widget is too big though, 1x1 would be really nice. +1 for open-source
+4,Great for on the go Sends and receives bitcoins as you would expect. I just wish there were a way to export your transactions to a table
+5,Great app Love the way the app looks and functions. I would love to see an exact clone or added functionality for Litecoin and other block chains :) Its so nice and clean to have Bitcoin like this on the phone, I feel dirty using the desktop apps for other chains
+5,Best Android Bitcoin Wallet, Hands Down Please allow app backups, Carbon says backing up Bitcoin Wallet is not allowed by the developer.
+4,Easy to use Good navigation and easy to use.
+3,New version crashes Desire HD. Reinstalling doesn't fix this!
+5,Works well on Galaxy Nexus Nice interface and works well, I'm really excited about having my wallet with me! Initial synchronization takes some time and seems to drain battery.
+2,Pretty but buggy There are some holes in the app flow. I was able to get the app into a state where i was in the address book activity and pressing the top left button just exited the app to my home screen. A closer look at the activity life cycle is probably needed. Other bug exist such as using the qr code scanner button a couple of times will make the buttons for qr code and clipboard duplicate and be shown on both the sending and receiving address pages. Otherwise the app is displayed well and Jas nice graphics.
+5,Fanatic. Works great. If you seem to have trouble with balance not updating or missing bitcoins. Try reseting the block chain under preferences.
+1,Crashes Crashes everytime I open it now on nexus7. Won't reset. No transactions shown after April 1st.
+4,good app i cloned your repository only to realize my android knowledge is so poor i can't improve the app in any way. So i sent you a tip and here's 4 stars. I'll make it 5 when i can import my keys without bundling them into a file first. (brain wallet key importing)
+5,Great wallet software This has been the wallet with the most features for a long time, but now it's really fast with Bloom filter support on the P2P network. You can even pay via NFC!
+5,Very good app Works very well, doesn't drain battery. Perfect for small amounts of BTC. Thank you!
+4,Good app. Need more info. When it comes to money, we need all the info. How does it sync so quickly when qt takes days? where does it store the blockchain? are private keys stored on servers? is this a thick or thin client? 5 stars for answers.
+5,Brilliant Very well designed app, and developer very helpful via email. If you need a mobile Bitcoin app, this is the one to go for!
+3,Ok Good app, FC's when trying to import private keys. Also needs to be able to import private key from qr for paper wallets
+5,Ultra impressed with the app AND the service Andreas has been a complete hero, responding to my emails with upgrades. The app mkes transacting extremely easy. THANKS for giving us a mobile option for bitcoin.
+1,Mandatory optional fee It appears that sending coins now requires a fee of at least 0.0005 BTC, but the field still reads as optional. This just started for me with the most recent update. Now I can't send coins if I don't include the fee, even if I don't care how long the transaction takes to clear.
+5,Great job. Still needs improvement Great wallet app, seems to be working fine. However I would require wallet encryption to hold anything more than a few BTC on this though. Keep up the good work :) Thanks!
+3,Good the first time Now my wallet is gone? What happens when uninstalled?
+5,THE android client This program is at the forefront of both Bitcoin clients and Android 4 styling. Kudos!
+5,btc ftw excelent app, the only problem with it is i cant find a bitcoin address to donate to.
+5,;) I can buy anything...
+5,Favorite Bitcoin client After trying several Bitcoin clients, this is my favorite. Now includes built in QR code scanner for easy phone to phone transactions.
+5,Great! Works just fine
+5,Works perfect Works great and I have yet run into any bugs.
+3,Stalled for 35 hours straight Dev, the wallet has stalled and it refuses to sync. Wtf mate?
+5,Wallet rocks! Love it!
+5,Proper wallet Excellent job, nice design, simple to use... Thank you.
+5,Need backup Need back option, other than that perfect
+1,Unstable Random crash while phone was idle. All data gone on re launch. Upon recollection of data all coins sent from app never showed up to sent address. Unfortunatly as nice of an app this is, there is a major bug in it that can easily loose coins. Edit: The coins sent after the blockchain caught up were lost. Logs shown coins sent to another (random?) address other than correct one that was selected from address book.
+5,Great mobile bitcoin solution Works great so far, but it took a really long time to download the blockchain. I understand that part of this is just how bitcoin works, but any way to make it less painful would be welcome.
+4,Wish I could use it more. I have yet to encounter any real problems with this app. Needs proxy support so non-root users can use it with Orbot.
+3,Best one out there, but... I tried all applications on all 4 of my android devices (S3, Note, Asus Transformer, HTC evo) and this is the only one that doesn't crash. Used it many times in the streets - a bit slower than Bitcoin on the desktop. One problem: I sent myself a small amount from this Android app (.003 or something) and I had set 0.000 as the fee. A month later and it is still not sent, not in the blockchain, and IT RENDERED THE APP UNUSABLE. I will lose the balance I have on that account. I can't send money from it until the other transaction finishes (which will be never - I guess). There should be some way to back up the app - and the wallet.
+1,Stole my bitcoins! Was trying to send coins to another account, I know for a fact the address was right cause it was in my address book. But because the "optional" amount wasn't correct it rejected the transfer, and took my coins.
+5,Best wallet out there! I use it extensively, now on my HTC One V. It is simply the best android wallet out there. Want the real thing? Use Bitcoin Wallet for full power, without trusting a centralized middleman holding your coins!
+3,Does it creates a new wallet? Can someone plz explain how it works...does it creats a new wallet or I can just add my old one?
+1,Deserves less then 1 star. So ive been receiving coins into the wallet fine but as soon as i try to send the transaction sits in limbo and goes nowhere it never shows up on any blockchain and just shows up as a greyed out transaction with an unkown status in the wallet. This is a seriously useless app.
+4,Good Bitcoin implementation Runs well on my Galaxy Nexus. Clean interface and hasn't crashed yet.
+5,Awsome app man! I just paid for my meal at room 77 in Berlin using this app. Best feeling in the world. I also met the developer of this app who is really nice. Looking forward to the proliferation of bitcoin.
+3,Good app Good app just wish the data was stored on the SD card
+5,HTC Desire Runs smooth ... now my device have wallet so gota keep it safe :-)
+2,needs import/export
+5,Seems to work seems to work.
+4,Keeps getting better. Needs some work. Wallet encryption plus a wallet export / backup feature would be super. Titanium Backup works well enough for now. Great job! Keep it up!
+3,Crashed many times.
+3,with each update it is becoming less stable. It will often hold confirmed funds.
+5,Love it!
+5,Great wallet This is a brilliant app. I wish it could display the "approximate value" in more currencies, but other than that I love it. Recommended!
+4,good, but needs lots of internal storage The app itself seems almost perfect (sending and receiving money is super easy), but I can't really use it on my HTC Desire since it uses like 20mb of internal storage. I don't know why it can't put the blockchain on the SD Card, but until that's possible I'll have to move out my coins and remove the app so that I can run the other apps I use..
+5,support Tor! Please integrate with orbot
+1,Force closes on thunderbolt Stuck on blockchain, causes force close.
+1,Fills up internal storage I have quite limited internal phone storage. This app filled it with 13MB of data, said insufficient storage and refused to operate. Useless for me until it can use SD card instead of internal storage.
+1,Unreliable Sent a coin from it weeks ago, still has not arrived. Do not transfer large amounts to your wallet, as you may never get them out again
+3,Not bad, but not polished Works ok, having qr code and nfc is awesome, and the fact that its open source is a plus when it comes to trust. UI is a little confusing, with right and left arrows representing pay and receive. Also, there's no apparent way to back up the wallet and I've had payments fail which required resetting the block chain. I've been using it with some friends for small payments and for the most part think this is a decent app.
+4,But... Does this wallet work for games such as satoshidice?
+4,Nice app but no backup option Very nice app, fast and nice UI. Doesn't have a backup option and an option to toggle the notification icon that shows the number of connected peers.
+4,Great app It's really nice having a portable app to accept bitcoins! The two features I'd really like would be a way to exit the application, and some sort of encryption/backup process. Other than that it works great!
+5,Down with the Federal Reserve! If Congress won't fix the economy, then it's up to us! Bitcoin FTW!
+3,Works good I would like a way to toggle the app on an off , instead of being connected all the time
+1,Blockchain fills internal storage Don't bother if you have limited internal storage.
+5,Only 1 con Rapes battery to oblivion
+5,Great Excellent app does everything i want!
+5,Very nice Just what I would hope for in a mobile wallet.
+4,The best mobile Bitcoin client. The only thing it needs is easier backups.
+4,Legit I won't use any other bt wallet app. This thing is pretty solid.
+3,Confused Seems to work fine, though when it's running and what it's doing aren't quite clear. Does notification mean it's still running? How do I know whether it's downloading new blocks?
+4,ZodiacDragon84 Great app for conducting bitcoin business on the go. Only issue is that the widget force closes on my lg optimus VI
+5,Very cool app Awesome app now that we can properly close it. Thank you for the swift fix! =)
+5,Crashes from mined transactions But otherwise excellent app!
+5,Quick Responder! Had a problem with the feb 20th bug, i emailed and had a response later that day with an update that fixed it. Awesome response!
+5,Great! Great tool. I use it for all payments since the qr-reader interface is smooth on the phone. No risk of mistyping the recepient address. Great.
+2,Nice and polished interface, but feels unfinished The app's user interface is great. Unfortunately, it has some limits that make it impractical for occasional use: The user interface regularly stalls when updating the block chain. To make things worse, sometimes the block chain is forgotten and reloaded from the start. This is a very expensive operation (in terms of time and battery). Also, the app insists on keeping large amount of data (the block chain?) on internal memory; it doesn't support moving it to SD. Tested on Motorola Flipout (Android 2.1).
+4,Works OK, but needs work It is not reasonable for wallet software on a phone to be a full participant in the bitcoin network, it's too draining on the battery. There is currently a trusted client mode where it only connects to one other bitcoin client, but it needs to support fully disconnected operation with only periodic callbacks to the client for more data.
+1,Stopped loading and has my coins stuck in there.
+5,How excellent! Love the app. Works great but needs a quit or exit function.
+5,Lovely app, but it hasn't updated the blockchain for months, even after I deleted ... Lovely app, but it hasn't updated the blockchain for months, even after I deleted the last blockchain a week ago.
+5,Messed up after update It messed up after the update. I fixed it though. Net recommended for people that dont know what they are doing.
+3,Good visual design but Who thought it would be a good idea to download everything into the application space? What is the sdcard even there for?
+4,Need a way to close app/hide icon
+4,Landscape much? Great app... but rly, why no auto orientation?
+5,Very good! Good Awesome Does it all. Press back to close and home to minimize. Initial blockchain update takes a while.
+3,Issues with 1.36 on Thunderbolt I give this app 3 overall stars because I like it so much and has much potential. Previous version was much more stable.
+3,Nice idea. Has problems I love the idea but ... It took over a day before it even STARTED downloading the block database. (Trying with and without WiFi.) Once I installed this app, my battery started discharging WHILE it was plugged in. It was using power faster than my charger could provide it! Going to HAVE to move my BCs to my PC wallet and uninstall the app ... just as soon as my phone has charged enough to turn back on.
+4,Cant send in 1.36 This app is really good and until now havnt had a problem. It seems to stall when i send coins and sits there. Doesnt seem to be crashing though
+5,Thanks! For this great piece of code!
+5,Great app I love it. Very intuitive UI and the qr functions are awesome. Thank you Andreas!
+3,Buggy It works but crashes a lot on EVO 4G running mikfroyo4.4
+5,Droid Bionic Works well. After downloading the blockchain on wi-fi, my battery lasted just over 24 hours with 6 peers connected.
+1,Does not work, unfortunatly Quite simpy it would freeze and fc shortly after
+2,Doesn't work Is this only for sending bitcoins between phones? I tried sending some bitcoins to the phone wallet address from my computer & it said invalid address
+5,Best
+1,Force closes on startup
+5,Needs Exit button Cannot close/quit program. Otherwise works perfectly!
+1,Almost there. 1 star for now since can't send coins.
+5,Excellent app I've been waiting for. Also communicationg with developer is fine, ... Excellent app I've been waiting for. Also communicationg with developer is fine, which counts :-)
+5,Rad
+3,Security limitations, missing features it's missing the ability to generate new receive addrs and add friends to address book without sending money first. Also no landscape view. Works tho.
+5,Much nicer interface than the official desktop client
+5,Excellent work! Great to demo for promoting bitcoin. Latest version is perfect! ... Excellent work! Great to demo for promoting bitcoin. Latest version is perfect! don't have hardware to try nfc support but great work!
+5,Excellent This app is still a bit buggy, but far more feature-packed than the other client. They work similarly, but due to the increased polish of this app, I'm more comfortable using it.
+4,Not responding then force closes. HTC Desire. Reinstalled and it now works. Same ... Not responding then force closes. HTC Desire. Reinstalled and it now works. Same version.
+5,Great. Most functional Wallet app. Wish it used the 'bitcoin' app GUI which is cleaner.
+4,Block syncing finally started working again...here comes all my bitcoins
+5,Finally, a useable mobile bitcoin solution No problems so far... thanks!
+5,Brilliant! It just works.
+4,Needs work Needs option up disable/hide notifications as they take my screen space and do not care them
+5,well made I have not run in to any issues with my HTC EVO 4G. I have been able to send and recieve bitcoins flawlessly.
+5,I'm amazed, it works even faster than the PC client and uses little data ... I'm amazed, it works even faster than the PC client and uses little data for blockchain sync
+1,Illiterate dev can't even spell 'lose' correctly. Most likely a kid.
+5,Its an awesome app that I hope makes it to the actual bitcoins market. ... Its an awesome app that I hope makes it to the actual bitcoins market. Have no ploblems at all, no FC, no nothing. Working flawless on Original Droid.
+1,Bit coin wallet too power hungry This app consumes way too much power for me. Watched it drain my battery while it verified my zero balance with as many as 6 peers at a time. What a waste. Maybe I will try again if a new version gets written that does not drain my battery just verifying itself.
+2,Eats all phone storage space Unfortunately all transactions are stored in phone memory, which is very problematic for many low-end mobile phones with scarce resources. User should be given an option to store EVERYTHING on SD card. Even if it someone may think it is a bit unsafe. With Samsung Galaxy Gio I couldn't even synchronize before getting low on phone storage.
+5,Moving BitCoin forward Awesome. Great design. Great functionality. This is what Bitcoin needs!
+1,Broke my xperia had to reboot. Amateur.
+2,Doesn't work at all for me, HTC Hero with 2.1. 14 Mb also is ... Doesn't work at all for me, HTC Hero with 2.1. 14 Mb also is a bit big, I have an older Android phone that doesn't allow for app storage on the SD.
+2,This is a killer app, it has all the features you need. Too bad ... This is a killer app, it has all the features you need. Too bad it force closes all the time, and no updates that fix these.
+1,This is not ready for prime time. No block checkpoints. No version restriction for ... This is not ready for prime time. No block checkpoints. No version restriction for connecting peers. Use at your own risk. Doesn't always exit.
+3,Maybe a shutdown button? No way to stop it working but kill.
+4,1x1 widget please.
+5,New version works fine.
+4,Excellent user interface. Once the bugs are worked out this could easily be the ... Excellent user interface. Once the bugs are worked out this could easily be the standard android client
+5,Great wallet app Really glad the wallet is finally no longer only testnet. A great, fast way to perform real-world BTC transactions.
+3,My wallet keeps crashing Would have given this app a 5 star rating 3 days ago, but it keeps crashing during my resetting the block chain. Before the 1st crash, I had 7btc, but everytime I try to send to someone else, it gets stuck saying , this transaction has not been transmitted yet. So I wait, wait, 3 hours later, still no change. So, reset again, hoping itll work after its done, but it doesnt. It crashed 8 more time during the reset. Also had 5.3 btc added. It shows up as completed and ready to use, but it still gets stuck. Di?
+4,Make sure to get the latest version.
+4,No longer starts - instant FC
+4,Works great on desire hd Would like to see simple pass on start up ... Works great on desire hd Would like to see simple pass on start up Cant wait for real version.. and my small second wallet in my pocket..awesome
+3,Very attractive interface and apart from the instability seems to be a well built ... Very attractive interface and apart from the instability seems to be a well built app. Needs work, can't wait for a working release.
+4,FC on Droid Charge
+1,No good Can't use my own existing bitcoin wallet address... This app will only create a NEW wallet for you, it will not allow you to import wallet information from a current existing wallet.
+5,Feature request Can you add a password protection to accessing the wallet. Because if the mobile device is stolen or lost anyone will access to the wallet.
+4,Removing BTC Address Perfect app and all but why the simple task of removing a bitcoin address from the wallet has not bee implemented? I mean come on why wouldnt you want users to delete thier BTC address and creat new ones and delete them again if theu want to? Thanks for your hard work, allow us to delete btc address's from our wallet and i will up my rating to 5 stars :bd
+1,F this app.. I had 20 coins Stored within app.. Before i could backup..the app magically disappered.. Y does everyone scam.. Guess where to cons go to..not me
+5,Great app design. This is my favorite demo of how Bitcoin works.
+5,Updates only with automatic update. Good app! Playstore shows an update, however updating it errors out saying application already exists.
+5,Excellent SPV Implementation One wouldn't usually expect mobile apps to function well in a p2p configuration, but here it is. "Sync on power" is a killer feature. Keep caught up with the blockchain "zero-trust" style, without sacrificing battery life.
+5,Would like encryption The only thing missing on this app is encryption for outgoing transactions, just like bitcoin-qt. Other then that's it's perfect!
+5,Works Great This does what you expect a bitcoin client to do. The app is well developed past the 'functional' stage and is easy to use. But for suggestions, I'd personally like to see some "help" screens to guide people in making a backup of their wallets and basic bitcoin best practices.
+1,Since update it just crashes Since the last update all it does is crash wont sync, says its 53 months behind and wont do anything
+5,Set the standard for any mobile bitcoin client I ve seen this app improve with each release. It currently sets the standard for a mobile bitcoin client in my opinion. If this rate of innovation continues, it will blow your mind and shake your beliefs on money and payment systems in the years to come. Well done and well deserved 5 star rating.
+5,Just works Everything works as expected, sending/receiving coins, address book, QR. The only missing feature is the wallet backup. And it's really essential.
+3,Too long for confirmations Takes too long to confirm after last update. Would be better to have more controll over wallet like be able to delete or freeze/unfreez addresses and display balance for each address and such of more details regarding own wallet. More of advanced mode... overall thank you Edit: also the use of Change address should be optional not forced! Also good to have option to create new change address or use existing
+1,Can't handle the work (crashing) Repeated buffer overflow, causing app to freeze and crash, can't use in app error report as that crashes the app or freezes, Have tried reinstall no joy. Tried Version 3.11 still crashing and freezing, can't send crash report as app freezes or crashes needs a lot of work.
+2,Magically connects to network Disconnect button does not work. It was will connect after disconnected. Not good. I had to uninstall.
+4,Great app but... App works great, had 2 addresses going and showed combined totals of bitcoins... Apr 1 however, app started crashing. Reinstalled and recovered my first address no problem. Got 2nd address in and the app crashes when block chain replays into April... Love the app, what's the deal... Bad bitcoins?
+1,Doesn't add up Math on transaction details don't add up. Seems suspicious to me. Uninstalled.
+1,Versteh' ich nicht, funktioniert nicht. Deinstalliert Grottige benutzung. Kommt mit irgendeiner suspekten Adresse an, die ich nicht will, kann man aber nicht l?schen. Eine Eingescannte Adresse meiner Paperwallwet als default anzuzeigen klappt auch nicht. Komische So?e.
+5,Works great
+1,Useless What's the point of exporting private keys if you can't import them. My coins are now stuck in limbo...thanks
+1,Lolbuttcoins Lol
+1,BigBird I wait through white screen then forcecloses.. evo 4g
+5,Bitcoins!! Totally utterly brilliant.. Thank you.
+3,App deleted its self? I lost all my coins. Needs backup db feature so one doesn't lose all there coins.
+5,Looks good It shows pm my phone
+4,Good app
+5,This. Makes my life easy. Thanks.
+4,Eats battery Eats battery
+4,Good Ok
+5,YES Bitcoin!
+1,Can't delete old wallets Why can't I delete an old wallet or add a wallet I already have? Ugh, this app is annoying.
+5,Great service Excell response time to all my questions. Very good app..... Thank you
+1,Can't import past keys Can't access previous wallet from old ROM. Backed up keys from that ROM, it now not selectable on new ROM when trying to import keys.
+1,Wow do not use this app U will lose bit coins as i did.. The app will even unistall it self
+5,A+ A+

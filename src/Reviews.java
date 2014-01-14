@@ -40,12 +40,12 @@ public class Reviews {
 	}
 	WebDriver driver;
 	private static final String FOLDER_PATH = "C:\\Users\\Kiichi\\googleplayreviewviewer\\results";
-
-	public static void main(String[] args) {
+	
+	public static void main(String[] args) throws InterruptedException {
 		Reviews r = new Reviews();
 	}
 
-	public Reviews() {
+	public Reviews() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
 				"./driver/chromedriver.exe");
 		driver = new ChromeDriver();
@@ -53,7 +53,7 @@ public class Reviews {
 		driver.close();
 	}
 
-	private void crawlReviews() {
+	private void crawlReviews() throws InterruptedException {
 		FdroidApps fa = new FdroidApps();
 		List<String> apps = fa.getApps();
 		List<String> appCategories = fa.getAppCategories();
@@ -62,15 +62,16 @@ public class Reviews {
 			String appCategory = appCategories.get(j);
 			for (String hl : hls) {
 				driver.get(getURLWithParameters(app, hl));
-				boolean isFirst = true;
+				Thread.sleep(5000);
 				for (int i = 1;; i++) {
 					try {
 						waitIfLoading();
 						driver.findElement(
 								By.xpath("//*[@id=\"body-content\"]/div[2]/div[2]/div[1]/div[2]/div[2]"))
 								.click();
+						waitIfLoading();
 					} catch (ElementNotVisibleException e) {
-						break;
+
 					} catch (NoSuchElementException e) {
 						break;
 					} catch (WebDriverException e) {
@@ -82,8 +83,9 @@ public class Reviews {
 					List<WebElement> expandPages = driver
 							.findElements(By
 									.xpath("//*[@id=\"body-content\"]/div[2]/div[2]/div[1]/div[2]/div[1]/div/div"));
-					if (i >= expandPages.size())
+					if (i >= expandPages.size()){
 						break;
+					}
 					WebElement expandPage = expandPages.get(i);
 					List<WebElement> columns = expandPage.findElements(By
 							.xpath("div"));
@@ -93,28 +95,12 @@ public class Reviews {
 						for (WebElement review : reviews) {
 							WebElement reviewBodyElement;
 							WebElement rateElement;
-							if (isFirst) {
-								reviewBodyElement = review.findElement(By
-										.xpath("div[2]/div[2]"));
-								rateElement = review
-										.findElement(By
-												.xpath("div[2]/div[1]/div[1]/div[2]/div/div"));
-							} else {
-								reviewBodyElement = review.findElement(By
-										.xpath("div/div[2]"));
-								try {
-									rateElement = review
-											.findElement(By
-													.xpath("div/div[1]/div[1]/div[2]/div/div"));
-								} catch (NoSuchElementException e) {
-									rateElement = review
-											.findElement(By
-													.xpath("div[1]/div[1]/div[2]/div/div"));
-								}
-								// *[@id="body-content"]/div[2]/div[2]/div[1]/div[2]/div[1]/div/div[4]/div[2]/div[3]/div/div[1]/div[1]/div[2]/div/div
-								// *[@id="body-content"]/div[2]/div[2]/div[1]/div[2]/div[1]/div/div[5]/div[2]/div[1]/div[1]/div[1]/div[2]/div/div
-							}
+							reviewBodyElement = review.findElement(By
+									.className("review-body"));
+							rateElement = review.findElement(By
+									.className("current-rating"));
 							String reviewBody = reviewBodyElement.getText();
+						
 							int rate = extractRate(rateElement
 									.getAttribute("style"));
 							System.out.println("Category:" + appCategory);
@@ -122,7 +108,6 @@ public class Reviews {
 							System.out.println("Review Body:");
 							System.out.println(reviewBody);
 							writeResult(appCategory, app, rate, reviewBody);
-							isFirst = false;
 						}
 					}
 				}
@@ -131,13 +116,15 @@ public class Reviews {
 	}
 
 	private void waitIfLoading() {
-		// *[@id="body-content"]/div[2]/div[2]/div[1]/div[2]/div[5]
 		WebElement loading = driver
 				.findElement(By
 						.xpath("//*[@id=\"body-content\"]/div[2]/div[2]/div[1]/div[2]/div[5]"));
+		int waitLevel = 0;
 		while (!loading.getAttribute("style").contains("none")) {
 			try {
-				Thread.sleep(1000);
+				int waitTime = (int) Math.pow(2, waitLevel);
+				Thread.sleep(5000 * waitTime);
+				waitLevel++;
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -167,18 +154,6 @@ public class Reviews {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
-	}
-
-	private boolean isNextEnded() {
-		List<WebElement> next;
-		try {
-			next = driver
-					.findElements(By
-							.xpath("//*[@id=\"body-content\"]/div[2]/div[2]/div[1]/div[2]/div[2]"));
-			return false;
-		} catch (ElementNotVisibleException e) {
-			return true;
 		}
 	}
 

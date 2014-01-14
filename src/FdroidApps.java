@@ -57,8 +57,8 @@ public class FdroidApps {
 
 	protected void crawlURL() {
 
-		for (int j = 0; j < CATEGORIES.size(); j++) {
-		//for (int j = 0; j < 1; j++) {
+		//for (int j = 0; j < CATEGORIES.size(); j++) {
+		for (int j = 0; j < 1; j++) {
 			String category = CATEGORIES.get(j);
 			for (int k = 1;; k++) {
 				String url = getURLWithParameters(
