@@ -24,6 +24,9 @@ public class Reviews {
 	String GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details";
 	String GET_PARAMETER_ID = "id";
 	String GET_PARAMETER_HL = "hl";
+	String LOGIN_EMAIL = "iann8071@gmail.com";
+	String LOGIN_PASS = "iann2357";
+
 	HashMap<String, Integer> rateMap = new HashMap<String, Integer>();
 	{
 		rateMap.put("0", 0);
@@ -38,6 +41,7 @@ public class Reviews {
 		hls.add("en");
 		hls.add("ja");
 	}
+	ArrayList<String> devices = new ArrayList<String>();
 	WebDriver driver;
 	private static final String FOLDER_PATH = "C:\\Users\\Kiichi\\googleplayreviewviewer\\results";
 	private final ArrayList<String> searchedApps = new ArrayList<String>();
@@ -50,7 +54,7 @@ public class Reviews {
 	public Reviews() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
 				"./driver/chromedriver.exe");
-		driver = new ChromeDriver();
+		login();
 		crawlReviews();
 		driver.close();
 	}
@@ -61,22 +65,30 @@ public class Reviews {
 		List<String> appCategories = fa.getAppCategories();
 		for (String appCategory : appCategories) {
 			File searchedAppsArray = new File(FOLDER_PATH + "/" + appCategory);
-			for (File searchedApp : searchedAppsArray.listFiles()) {
-				searchedApps.add(searchedApp.getName());
-			}
+			if (searchedAppsArray.listFiles() != null)
+				for (File searchedApp : searchedAppsArray.listFiles()) {
+					searchedApps.add(searchedApp.getName());
+				}
 		}
+
+		apps = new ArrayList<String>();
+		apps.add("com.bottleworks.dailymoney");
+		apps.add("com.android.keepass");
+		apps.add("org.dsandler.apps.markers");
+		apps.add("com.evancharlton.mileage");
 
 		for (int j = 0; j < apps.size(); j++) {
 			String app = apps.get(j);
 			if (searchedApps.contains(app.replaceAll("\\.", "_") + ".csv")) {
-				continue;
+				// continue;
 			}
-			boolean crached = false;
-			String appCategory = appCategories.get(j);
-			for (String hl : hls) {
-				driver.get(getURLWithParameters(app, hl));
-				Thread.sleep(1000);
-				for (int i = 1;; i++) {
+			try {
+				boolean crached = false;
+				//String appCategory = appCategories.get(j);
+				String appCategory = "Office";
+				for (String hl : hls) {
+					driver.get(getURLWithParameters(app, hl));
+
 					try {
 						waitIfLoading();
 						driver.findElement(
@@ -84,70 +96,130 @@ public class Reviews {
 								.click();
 						waitIfLoading();
 					} catch (ElementNotVisibleException e) {
-
+						continue;
 					} catch (NoSuchElementException e) {
-						break;
+						continue;
 					} catch (WebDriverException e) {
 						j--;
 						driver.close();
-						driver = new ChromeDriver();
+						login();
 						break;
 					}
-					List<WebElement> expandPages = driver
-							.findElements(By
-									.xpath("//*[@id=\"body-content\"]/div[2]/div[2]/div[1]/div[2]/div[1]/div/div"));
-					if (i >= expandPages.size()) {
-						break;
-					}
-					WebElement expandPage = expandPages.get(i);
-					List<WebElement> columns = expandPage.findElements(By
-							.xpath("div"));
-					for (WebElement column : columns) {
-						List<WebElement> reviews = column.findElements(By
-								.xpath("div"));
-						for (WebElement review : reviews) {
-							WebElement reviewBodyElement;
-							WebElement rateElement;
-							reviewBodyElement = review.findElement(By
-									.className("review-body"));
-							rateElement = review.findElement(By
-									.className("current-rating"));
-							String reviewBody = reviewBodyElement.getText();
 
-							if (reviewBody.isEmpty()) {
-								remove(app, appCategory);
-								restart();
-								crached = true;
+					WebElement dropdownMenuContainer = driver.findElement(By
+							.className("id-review-device-filter"));
+					List<WebElement> dropdownMenuChildren = dropdownMenuContainer
+							.findElement(By.className("dropdown-menu-children"))
+							.findElements(By.xpath("div"));
+
+					for (WebElement dropdownMenuChild : dropdownMenuChildren) {
+
+						deviceMenuContainerClick();
+						if (dropdownMenuChild.getText().equals("All Devices")) {
+							deviceMenuContainerClick();
+							continue;
+						}
+						String deviceName = dropdownMenuChild.getText();
+						dropdownMenuChildClick(dropdownMenuChild);
+						waitIfLoading();
+						try {
+							if (driver
+									.findElement(
+											By.className("id-no-reviews-container"))
+									.getText()
+									.equals("There are no reviews matching these criteria."))
+								continue;
+						} catch (NoSuchElementException e) {
+
+						}
+
+						for (int i = 1;; i++) {
+							waitIfLoading();
+							try {
+								if (i != 1) {
+
+									driver.findElement(
+											By.xpath("//*[@id=\"body-content\"]/div[2]/div[2]/div[1]/div[2]/div[2]"))
+											.click();
+
+								}
+							} catch (ElementNotVisibleException e) {
+
+							} catch (NoSuchElementException e) {
+								break;
+							} catch (WebDriverException e) {
 								j--;
+								driver.close();
+								login();
 								break;
 							}
-							int rate = extractRate(rateElement
-									.getAttribute("style"));
-							System.out.println("Category:" + appCategory);
-							System.out.println("Rate:" + rate);
-							System.out.println("Review Body:");
-							System.out.println(reviewBody);
-							writeResult(appCategory, app, rate, reviewBody);
+							waitIfLoading();
+							List<WebElement> expandPages = driver
+									.findElements(By
+											.xpath("//*[@id=\"body-content\"]/div[2]/div[2]/div[1]/div[2]/div[1]/div/div"));
+							if (i >= expandPages.size()) {
+								break;
+							}
+							WebElement expandPage = expandPages.get(i);
+							List<WebElement> columns = expandPage
+									.findElements(By.xpath("div"));
+							for (WebElement column : columns) {
+								List<WebElement> reviews = column
+										.findElements(By.xpath("div"));
+								for (WebElement review : reviews) {
+									WebElement reviewBodyElement;
+									WebElement rateElement;
+									reviewBodyElement = review.findElement(By
+											.className("review-body"));
+									rateElement = review.findElement(By
+											.className("current-rating"));
+									String reviewBody = reviewBodyElement
+											.getText();
+
+									if (reviewBody.isEmpty()) {
+										remove(app, appCategory);
+										restart();
+										crached = true;
+										j--;
+										break;
+									}
+									int rate = extractRate(rateElement
+											.getAttribute("style"));
+									System.out.println("Category:"
+											+ appCategory);
+									System.out.println("Rate:" + rate);
+									System.out.println("Review Body:");
+									System.out.println(reviewBody);
+									writeResult(appCategory, app, rate,
+											deviceName, reviewBody);
+								}
+
+								if (crached) {
+									break;
+								}
+							}
+							if (crached)
+								break;
 						}
-						
-						if(crached) {
+						if (crached)
 							break;
-						}
 					}
-					if(crached)
+					if (crached)
 						break;
 				}
-				if(crached)
-					break;
+			} catch (WebDriverException e) {
+				j--;
+				driver.close();
+				login();
+				break;
 			}
-			
 		}
 	}
 
 	private void restart() throws InterruptedException {
 		driver.close();
 		Thread.sleep(60000);
-		driver = new ChromeDriver();
+		login();
 	}
 
 	private void remove(String app, String category) {
@@ -158,10 +230,9 @@ public class Reviews {
 	}
 
 	private void waitIfLoading() {
-		WebElement loading = driver
-				.findElement(By
-						.xpath("//*[@id=\"body-content\"]/div[2]/div[2]/div[1]/div[2]/div[5]"));
-		int waitLevel = 0;
+		WebElement loading = driver.findElement(By.className("reviews"))
+				.findElement(By.className("expand-loading"));
+		int waitLevel = 1;
 		while (!loading.getAttribute("style").contains("none")) {
 			try {
 				Thread.sleep(5000 * waitLevel);
@@ -169,6 +240,30 @@ public class Reviews {
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+			}
+		}
+	}
+
+	private void deviceMenuContainerClick() throws InterruptedException {
+		while (true) {
+			try {
+				driver.findElement(By.className("id-review-device-filter"))
+						.click();
+				break;
+			} catch (ElementNotVisibleException e) {
+				Thread.sleep(1000);
+			}
+		}
+	}
+
+	private void dropdownMenuChildClick(WebElement child)
+			throws InterruptedException {
+		while (true) {
+			try {
+				child.click();
+				break;
+			} catch (ElementNotVisibleException e) {
+				Thread.sleep(1000);
 			}
 		}
 	}
@@ -182,20 +277,29 @@ public class Reviews {
 	}
 
 	private void writeResult(String category, String name, int rate,
-			String review) {
+			String deviceName, String review) {
 		try {
 			File folder = new File(FOLDER_PATH + "\\" + category);
 			folder.mkdirs();
 			File csv = new File(FOLDER_PATH + "\\" + category + "\\"
 					+ name.replaceAll("\\.", "_") + ".csv");
 			PrintWriter pw = new PrintWriter(new FileWriter(csv, true));
-			pw.println(rate + "," + review);
+			pw.println(rate + "," + deviceName + ","
+					+ review.replaceAll(",", ""));
 			pw.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+
+	private void login() {
+		driver = new ChromeDriver();
+		driver.get("https://accounts.google.com/ServiceLogin?");
+		driver.findElement(By.id("Email")).sendKeys(LOGIN_EMAIL);
+		driver.findElement(By.id("Passwd")).sendKeys(LOGIN_PASS);
+		driver.findElement(By.id("signIn")).click();
 	}
 
 	private String getURLWithParameters(String id, String hl) {
